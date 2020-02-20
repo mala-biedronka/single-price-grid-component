@@ -1,0 +1,40 @@
+body {
+    background-color: #e1eff6;
+}
+.container {
+    max-width: 600px;
+    margin: 150px auto;
+    border: 1px solid cornflowerblue;
+}
+
+.first-row {
+    padding: 6% 3% 3%;
+    background-color: #fff;
+}
+
+.second-row {
+    padding: 6% 3% 3%;
+    color: #edf2f2;
+}
+
+.subscrip {
+    background-color: #24a6a2;
+}
+
+.us {
+    background-color: #53c7c3;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.per-month {
+    font-size: 0.85rem;
+    color: #e1e4e4;
+}
+.button-sign {
+    background-color: #84d622;
+    border-radius: 2%;
+}
