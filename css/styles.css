@@ -1,40 +1,63 @@
 body {
     background-color: #e1eff6;
 }
-.container {
-    max-width: 600px;
+.wrapper {
+    max-width: 650px;
     margin: 150px auto;
-    border: 1px solid cornflowerblue;
 }
-
 .first-row {
-    padding: 6% 3% 3%;
+    padding: 6% 5% 3%;
     background-color: #fff;
+    color: #b3b3b3;
 }
-
+.heading-join {
+    margin-bottom: 20px;
+    color: #4fb7b4;
+}
+.heading-guarantee {
+    color: #b9ec29;
+}
 .second-row {
-    padding: 6% 3% 3%;
     color: #edf2f2;
 }
-
-.subscrip {
-    background-color: #24a6a2;
+.subscription {
+    padding: 6%;
+    background-color: #4fb7b4;
 }
-
-.us {
-    background-color: #53c7c3;
+.advantages {
+    padding: 6%;
+    background-color: #65c0bd;
 }
-
 .price {
-    font-size: 2rem;
+    display: inline-block;
+    font-size: 2.3em;
     font-weight: bold;
 }
-
 .per-month {
+    display: inline-block;
+    vertical-align: middle;
     font-size: 0.85rem;
-    color: #e1e4e4;
+    color: #e8e8e8;
 }
-.button-sign {
-    background-color: #84d622;
-    border-radius: 2%;
+.heading-subscription {
+    margin-bottom: 10px;
+}
+.button-sign-up {
+    margin-top: 30px;
+    padding: 4%;
+    background-color: #b9ec29;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 9px 24px -5px rgba(0,0,0,0.32);
+}
+.link-button:hover {
+    text-decoration: none;
+}
+.list-advantages {
+    padding: 0;
+    list-style: none;
+}
+.heading-advantages {
+    margin-bottom: 15px;
 }
